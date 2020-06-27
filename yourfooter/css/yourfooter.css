@@ -1,0 +1,45 @@
+
+.titre {
+    margin-left: 42%; 
+    border-bottom: 5px solid black; 
+    display: inline-table;
+}
+
+#text {
+    width: 80%;
+    text-align: justify;
+    letter-spacing: 2px;
+    margin-top: 4%;
+    font-size: 16px;
+    margin-left: 18%;
+    line-height: 32px;
+}
+
+#info {
+    margin-left: 28%;
+    margin-top: 4%;
+}
+
+.media {
+    margin-left: 38%;
+    margin-top: 4%;
+}
+
+#copy {
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+} 
+
+
+#foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+}
+
+.d1 {
+    width: 33.33%;
+}
