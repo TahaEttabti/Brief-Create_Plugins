@@ -24,7 +24,7 @@ function prefix_add_my_stylesheet() {
   }
 function addMenu()
 {
-    add_menu_page("footer","footer",4,"footer","examplefooter",'dashicons-networking');
+    add_menu_page("MyFooter","MyFooter",4,"MyFooter","examplefooter",'dashicons-admin-generic');
 }
 function examplefooter()
 {
@@ -42,15 +42,15 @@ function your_function() {
     </div>
     </div>
     <div class='d1'>
-    <div class='titre'>
+    <div class='titre1'>
     <h3>Contact</h3>
   </div>
   <div id='info'>
     <div>
-    <p>".get_option('footer_adresse')."</p>
+    <h6>Adresse :</h6><p>".get_option('footer_adresse')."</p>
     </div>
     <div>
-    <p>".get_option('footer_number')."</p>
+    <h6>Phone :</h6><p>".get_option('footer_number')."</p>
     </div>
    </div> 
     </div>

@@ -37,9 +37,8 @@ if(!defined('ABSPATH'))
 ?>
 <div class="wrap">
   <div >
-  <span class="dashicons dashicons-layout"></span> <br>
+  <h2><span class="dashicons dashicons-admin-generic"></span> Footer Settings</h2>
   </div>
-  <h2>Footer Settings</h2>
   <?php if(isset($_POST['wphw_submit']) && ($variable1 || $variable2)):?>
   <div id="message" class="updated below-h2">
     <p>Content updated successfully</p>
@@ -47,38 +46,38 @@ if(!defined('ABSPATH'))
   <?php endif;?>
   <div class="metabox-holder">
     <div class="postbox">
-      <h3><strong>Enter footer link and click on save button.</strong></h3>
+      <h3><strong>Enter information of footer and click on save button.</strong></h3>
       <form method="post" action="">
         <table class="form-table">
           <tr>
-            <th scope="row">Add About Us</th>
+            <th scope="row" style="padding-left:12px;">Add About Us</th>
             <td><textarea name="footertextarea" style="width:350px;" 
-value="<?php echo get_option('footer_textarea');?>">
+value="<?php get_option('footer_textarea');?>">
             </textarea>
           </td>
           </tr>
           <tr>
-            <th scope="row">Add Adresse</th>
+            <th scope="row" style="padding-left:12px;">Add Adresse</th>
             <td><input type="text" name="footeradresse" 
-value="<?php echo get_option('footer_adresse');?>" style="width:350px;" /></td>
+value="<?php get_option('footer_adresse');?>" style="width:350px;" /></td>
           </tr>
           <tr>
-            <th scope="row">Add Phone</th>
+            <th scope="row" style="padding-left:12px;">Add Phone</th>
             <td><input type="tel" name="footerphone" 
-value="<?php echo get_option('footer_number');?>" style="width:350px;" /></td>
+value="<?php get_option('footer_number');?>" style="width:350px;" /></td>
           </tr>
           <tr>
-            <th scope="row">Add Name</th>
+            <th scope="row" style="padding-left:12px;">Add Name</th>
             <td><input type="text" name="footertextname" 
-value="<?php echo get_option('footer_text');?>" style="width:350px;" /></td>
+value="<?php get_option('footer_text');?>" style="width:350px;" /></td>
           </tr>
           <tr>
-            <th scope="row">Add Link</th>
+            <th scope="row" style="padding-left:12px;">Add Link</th>
             <td><input type="text" name="footerlinkname" 
-value="<?php echo get_option('footer_link');?>" style="width:350px;" /></td>
+value="<?php get_option('footer_link');?>" style="width:350px;" /></td>
           </tr>
           <tr>
-            <th scope="row">&nbsp;</th>
+            <th scope="row" style="padding-left:12px;">&nbsp;</th>
             <td style="padding-top:10px;  padding-bottom:10px;">
             <input type="submit" name="wphw_submit" value="Save changes" class="button-primary" />
           </td>

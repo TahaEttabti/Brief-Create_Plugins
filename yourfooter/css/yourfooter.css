@@ -5,24 +5,30 @@
     display: inline-table;
 }
 
+.titre1 {
+    margin-left: 55%; 
+    border-bottom: 5px solid black; 
+    display: inline-table;
+}
+
 #text {
     width: 80%;
     text-align: justify;
     letter-spacing: 2px;
-    margin-top: 4%;
+    margin-top: 5%;
     font-size: 16px;
     margin-left: 18%;
     line-height: 32px;
 }
 
 #info {
-    margin-left: 28%;
-    margin-top: 4%;
+    margin-left: 45%;
+    margin-top: 5%;
 }
 
 .media {
     margin-left: 38%;
-    margin-top: 4%;
+    margin-top: 10%;
 }
 
 #copy {
@@ -38,6 +44,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: 400px;
+    margin: 11px auto;
 }
 
 .d1 {
